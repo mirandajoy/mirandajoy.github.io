@@ -86,6 +86,7 @@ p {
 
 header {
     background: url("header-img.png") no-repeat right top #835031;
+    background-size: cover;
 }
 
 #header-logo {
@@ -320,19 +321,23 @@ i {
 
 /***** LANDSCAPE TABLET *****/
 
-@media all and (max-width: 1200px) {
-    
+@media screen and (max-width: 1200px) {
+    .full-width {
+        width: 90%;
+    }
 }
 
 /***** TABLET *****/
 
-@media all and (max-width: 1020px) {
-
+@media screen and (max-width: 1020px) {
+    .full-width {
+        width: 90%;
+    }
 }
 
 /***** MOBILE *****/
 
-@media all and (max-width: 700px) {
+@media screen and (max-width: 700px) {
 
     .full-width {
         width: 90%;

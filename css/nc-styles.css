@@ -1,0 +1,391 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.full-width {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.third-width {
+    width: 33.33%;
+    float: left;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.twothirds-width {
+    width: 66.66%;
+    float: left;
+    margin: 0px;
+    padding-left: 16.66px;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    padding: 35px 0 0 0;
+    overflow: auto;
+}
+
+h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+}
+
+.primary-button {
+    background: #327E46;
+    border: none;
+    height: 48px;
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 300;
+    margin: 0 7px;
+}
+
+.secondary-button {
+    background: none;
+    border-color: #327E46;
+    border-style: solid;
+    border-width: 4px;
+    height: 48px;
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 300;
+    margin: 0 7px;
+}
+
+p {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+/***** HEADER *****/
+
+header {
+    background: url("header-img.png") no-repeat right top #835031;
+}
+
+#header-logo {
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    padding: 40px 0 0 0;
+    margin: 0px;
+}
+
+nav {
+    float: right;
+    margin: 0px;
+    padding: 48px 0 0 0;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: white;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+#maintext {
+    color: #DEB887;
+    font-family: 'Lobster', cursive;
+    font-size: 80px; 
+    text-align: center;
+    text-shadow: 4px 4px #D2691E;
+    clear: both;
+    padding: 100px 0 14px 0;
+    margin: 0px;
+}
+
+#subtext {
+    padding: 14px 0 24px 0;
+    margin: 0px;
+}
+
+#cta-buttons-set1 {
+    text-align: center;
+    padding: 24px 0px 107px 0px;
+    margin: 0px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background: #4BA062;
+    overflow: auto;
+}
+
+#portrait-img {
+    width: 100%;
+    height: auto;
+    padding-right: 33.33px;
+    box-sizing: border-box;
+}
+
+#aboutallcontent {
+    padding: 90px 0 15px 0;
+}
+
+#about-description {
+    padding-left: 16.66px;
+}
+
+#about-title {
+    text-align: left;
+}
+
+#about-content {
+    text-align: left;
+    line-height: 36px;
+}
+
+/***** SERVICES *****/
+
+#services {
+    background: #4BA062;
+}
+
+.section-header {
+    color: #3C2D1E;
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    padding: 50px 0 0 0;
+    margin: 0px;
+}
+
+.serviceheaders {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 20px 0;
+}
+
+.listedservices {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.listedservices li {
+    padding: 7px 0;
+}
+
+.icon {
+    background: none;
+    height: 47px;
+    width: 47px;
+    padding: 5px 0;
+    margin: 0 0 10px 0;
+}
+
+i {
+    color: white;
+}
+
+#service1,
+#service4 {
+    padding-right: 33.33px;
+    margin: 0px;
+}
+
+#service2,
+#service5 {
+    padding-right: 16.66px;
+    padding-left: 16.66px;
+    margin: 0px;
+}
+
+#service3,
+#service6 {
+    padding-left: 33.33px;
+    margin: 0px;
+}
+
+#cta-buttons-set2 {
+    clear: both;
+    text-align: center;
+    padding: 60px 0 74px 0;
+}
+
+/***** TESTIMONIALS *****/
+
+#testimonials {
+    background: #3C2D1E;
+}
+
+.testimonial {
+    padding: 70px 0;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.quote {
+    line-height: 30px;
+    margin: 0px;
+}
+
+.customer-name {
+    font-weight: 200;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background: #4BA062;
+}
+
+#contact-name {
+    text-align: left; 
+    font-size: 28px;
+    margin: 20px 0 30px 0;
+}
+
+#contact-phone {
+    font-size: 24px;
+}
+
+#contact-info {
+    font-size: 22px;
+}
+
+.form-label {
+    font-size: 22px;
+    margin: 18px 0 5px 0;
+    font-weight: 300;
+}
+
+#form {
+    padding-bottom: 90px;
+}
+
+#form1,
+#form2 { 
+    background: white;
+    height: 48px;
+    width: 100%;
+}
+
+#form3 {
+    background: white;
+    height: 176px;
+    width: 100%;
+}
+
+#form-button {
+    padding-top: 18px;
+    text-align: right;
+}
+
+#send-button {
+    margin: 0px;
+}
+
+/***** LANDSCAPE TABLET *****/
+
+@media all and (max-width: 1200px) {
+    
+}
+
+/***** TABLET *****/
+
+@media all and (max-width: 1020px) {
+
+}
+
+/***** MOBILE *****/
+
+@media all and (max-width: 700px) {
+
+    .full-width {
+        width: 90%;
+    }
+
+    .half-width {
+        width: 100%;
+    }  
+
+    #aboutallcontent {
+        padding: 40px 0 15px 0;
+    }
+
+    #about .third-width {
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+        text-align: left;
+    }
+
+    #portrait-img {
+        width: 50%;
+    }
+
+    #about-description {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #service1, 
+    #service2, 
+    #service3,
+    #service4,
+    #service5,
+    #service6 {
+        width: 90%;
+        padding: 10px 0 20px 0;
+    }
+
+    .twothirds-width {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #contact .third-width {
+        width: 100%;
+    }
+
+    /* HEADER */
+
+    .header-logo {
+        text-align: center;
+    }
+}
+

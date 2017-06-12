@@ -289,13 +289,15 @@
           <form action="https://formspree.io/miranda_neerhof@hotmail.com"
                 method="POST">
               <h5 class="form-label">Your Name</h5>
-              <input type="text" name="name">
+              <input type="text" name="name" id="form1">
               <h5 class="form-label">Your Email</h5>
-              <input type="email" name="_replyto">
+              <input type="email" name="_replyto" id="form2">
               <h5 class="form-label">Your Message</h5>
-              <textarea name="message"></textarea>
-              <input type="submit" value="Send">
+              <textarea name="message" id="form3"></textarea>
           </form>
+          <div id="send-button">
+            <button class="primary-button">Send</button>
+          </div>
         </div>
       </div>
     </section>

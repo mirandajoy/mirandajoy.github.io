@@ -350,8 +350,13 @@ i {
     text-align: right;
 }
 
-#send-button {
+#contact .primary-button {
     margin: 0px;
+}
+
+#send-button {
+    padding: 20px 0 0 0;
+    text-align: right;
 }
 
 /***** LANDSCAPE TABLET *****/
@@ -545,23 +550,20 @@ i {
     }
 
     .about-header-content-1 {
-        width: 30%;
-        float: left;
-    }
-
-    .about-header-content-2 {
-        width: 70%;
-        float: left;
-        padding-top: 5%;
-    }
-
-    #portrait-img {
         width: 100%;
     }
 
+    .about-header-content-2 {
+        width: 100%;
+        padding: 20px 0 5px 0;
+    }
+
+    #portrait-img {
+        width: 200px;
+    }
+
     #about-header {
-        display: inline-block;
-        vertical-align: bottom;
+        display: block;
     }
 
     #about-title-2 {
